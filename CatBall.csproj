@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BepInEx, Version=5.4.16.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\Steam\steamapps\common\Valheim - NewJotunn\BepInEx\core\BepInEx.dll</HintPath>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\Steam\steamapps\common\ValheimLATEST\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="ItemManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>C:\Users\Gravebear\Downloads\dlls\ItemManager.dll</HintPath>
@@ -42,11 +42,11 @@
     <Reference Include="ServerSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>C:\Users\Gravebear\Downloads\dlls\ServerSync.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\Steam\steamapps\common\Valheim - NewJotunn\unstripped_corlib\UnityEngine.dll</HintPath>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\Steam\steamapps\common\ValheimLATEST\unstripped_corlib\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\Steam\steamapps\common\Valheim - NewJotunn\unstripped_corlib\UnityEngine.CoreModule.dll</HintPath>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\Steam\steamapps\common\ValheimLATEST\unstripped_corlib\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
