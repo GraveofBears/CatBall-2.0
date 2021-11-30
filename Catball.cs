@@ -14,11 +14,12 @@ namespace CatBall
         {
             Item CatBall = new Item("ball", "CatBall", "Balls");
             CatBall.Crafting.Add(CraftingTable.Forge, 3);
-            CatBall.RequiredItems.Add("Iron", 20);
-            CatBall.RequiredItems.Add("WolfFang", 4);
-            CatBall.RequiredItems.Add("Wood", 6);
-            CatBall.RequiredUpgradeItems.Add("Iron", 5);
-            CatBall.RequiredUpgradeItems.Add("WolfFang", 5);
+            CatBall.RequiredItems.Add("LeatherScraps", 40);
+            CatBall.RequiredItems.Add("TrollHide", 4);
+            CatBall.RequiredItems.Add("SurtlingCore", 6);
+            CatBall.RequiredUpgradeItems.Add("LeatherScraps", 5);
+            CatBall.RequiredUpgradeItems.Add("TrollHide", 2);
+            CatBall.RequiredUpgradeItems.Add("SurtlingCore", 1);
             CatBall.CraftAmount = 1;
 
         }
