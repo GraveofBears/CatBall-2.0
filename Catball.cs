@@ -7,7 +7,7 @@ namespace CatBall
     public class CatBall : BaseUnityPlugin
     {
         private const string ModName = "CatBall";
-        private const string ModVersion = "2.0.6";
+        private const string ModVersion = "2.0.7";
         private const string ModGUID = "org.bepinex.plugins.catball";
 
         public void Awake()
