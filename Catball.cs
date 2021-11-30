@@ -13,7 +13,7 @@ namespace CatBall
         public void Awake()
         {
             Item CatBall = new Item("ball", "CatBall", "Balls");
-            CatBall.Crafting.Add(CraftingTable.Forge, 3);
+            CatBall.Crafting.Add(CraftingTable.Workbench, 2);
             CatBall.RequiredItems.Add("LeatherScraps", 40);
             CatBall.RequiredItems.Add("TrollHide", 4);
             CatBall.RequiredItems.Add("SurtlingCore", 6);
